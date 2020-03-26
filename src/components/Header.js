@@ -1,17 +1,19 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-
+import '../style/components/_Header.scss';
 export function Header() {
 
     return (
         <div className="header">
-            <p className="logo">My Tech Life</p>
+            
+
+            <p className="logo">Tasha's Tech Log</p>
             <ul className="category">
                 <li>
                     <Link to="/blogs">Blogs</Link>
                 </li>
                 <li>
-                    <Link to="/">Life</Link>
+                    <Link to="/">Codes</Link>
                 </li>
                 <li>
                     <Link to="/about">About Me</Link>

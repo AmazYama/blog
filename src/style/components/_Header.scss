@@ -1,10 +1,15 @@
 .header {
     color: white;
-    background-color: hsl(220,15%,35%);
+    background-image: url("logo192.png");
+    background-color: hsl(220,15%,35%); 
     display: flex;
+    font-size: 1em;
+    font-weight: normal;
 
     .logo {
         padding-left: 10vw;
+        font-size: 2em;
+        font-weight: bold;
     }
 
     .category {
