@@ -5,18 +5,28 @@ export function Header() {
 
     return (
         <div className="header">
-            
-
             <p className="logo">Tasha's Tech Log</p>
+
             <ul className="category">
                 <li>
-                    <Link to="/blogs">Blogs</Link>
+                    <Link to="/codes">Neuroscience</Link>
+
                 </li>
                 <li>
-                    <Link to="/">Codes</Link>
+                    <Link to="/blogs">My Thoughts</Link>
+
+                </li>
+                <li>
+                    <Link to="/gallery">Industry Engineering</Link>
+
+                </li>
+                <li>
+                <Link to="/paper">Interesting Papers</Link>
+
                 </li>
                 <li>
                     <Link to="/about">About Me</Link>
+
                 </li>
 
             </ul>
