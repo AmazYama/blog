@@ -1,16 +1,27 @@
 .ProfileImage {
+    margin-top: 30px;
+    margin-left: 50px;
     height: 350px;
     width: 250px;
     background-color: rgb(183, 239, 247);
-    border-radius: 8px;
+    border-radius: 10px;
     vertical-align: text-top;
     float: left;  
 }
 
+.ProfileHead{
+    font-size: 1.4em;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-right: 150px;
+    margin-left: 380px;
+}
+
 .ProfileText{
     //display: inline-block;
-    margin-top: 100px;
+    margin-top: 20px;
     margin-bottom: 100px;
-    margin-right: 150px;
-    margin-left: 80px;
+    margin-right: 500px;
+    margin-left: 400px;
 }

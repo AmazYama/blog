@@ -1,19 +1,25 @@
 .header {
+    position: sticky;
     color: white;
-    background-image: url("../../image/logo192.png");
+    background-image: url("../../image/brain_img_bg.png");
     background-color: hsl(220,15%,35%); 
     display: flex;
     font-size: 1em;
     font-weight: normal;
+    
+    height: 180px;
 
     .logo {
+        display: flex;
+        align-items: center;
+        //padding-top: 1em;
         padding-left: 10vw;
         font-size: 2em;
         font-weight: bold;
     }
 
     .category {
-        flex: 1;
+        flex:1;
         justify-content: flex-end;
         list-style-type: none;
         display: flex;

@@ -9,7 +9,7 @@ export function Header() {
 
             <ul className="category">
                 <li>
-                    <Link to="/codes">Neuroscience</Link>
+                    <Link to="/neuroscience">Neuroscience</Link>
 
                 </li>
                 <li>

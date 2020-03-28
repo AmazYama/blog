@@ -12,6 +12,7 @@ import {
 import {
    HomePage, AboutMePage,
 } from "./pages";
+import { Neuroscience } from './pages/Neuroscience';
 
 function App() {
   return (
@@ -24,6 +25,9 @@ function App() {
         </Route>
         <Route path="/about">
           <AboutMePage />
+        </Route>
+        <Route path="/neuroscience">
+          <Neuroscience />
         </Route>
       </Switch>
     </div>
