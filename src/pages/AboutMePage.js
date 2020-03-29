@@ -11,8 +11,8 @@ export class AboutMePage extends React.Component {
                 <img className='ProfileImage' src = {photo} alt="ID photo"></img>
                 <div className='ProfileHead'> About Me </div>
                 <div className='ProfileText'>   <br/>
-                    Master Student in Technical University Munich <br/>
-                    <br/>
+                     <br/>
+                    
                     Neuroscience; Cognitive System; Robotics; Automobile Industry <br/> 
                     <br/>   
 
