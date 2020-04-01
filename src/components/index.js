@@ -1,2 +1,4 @@
 import { Header } from './Header';
-export { Header };
+import { MarkdownDisplayer } from './MarkdownDisplayer';
+
+export { Header, MarkdownDisplayer};
