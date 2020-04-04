@@ -39,7 +39,7 @@ export class Header extends React.Component{
             </ul>
             <button onClick={this.changeEffective}>button</button>
 
-            {this.state.effective? <p>True</p>:<h>False</h>}
+            
         </div>
         )
     }

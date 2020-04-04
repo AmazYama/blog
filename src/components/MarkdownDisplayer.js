@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 //import photo from '../image/identification2017.jpg'
 import '../style/pages/Neuroscience.scss'; 
 import MarkdownIt from 'markdown-it';
+import ReactHtmlParser, { processNodes, convertNodeToElement, htmlparser2 } from 'react-html-parser';
 
 
 export class MarkdownDisplayer extends React.Component {
@@ -14,27 +15,17 @@ export class MarkdownDisplayer extends React.Component {
         }
     }
 
-
-    componentDidMount(){
-        console.log('markdown')
-        // var md = window.markdownit();
-        // var result = md.render('# markdown-it rulezz!');
-        var MarkdownIt = require('markdown-it'),
-        md = new MarkdownIt();
-        var result = md.render('# markdown-it rulezz!');
-    }
-
     componentDidUpdate(){
         console.log('HOLA, COMPONENT UPDATE')
     }
 
     render() {
-        return (
-            <React.Fragment>
-                <div> 
-                </div>
+        var md = new MarkdownIt();
+        var result = md.render('# markdown-it rulezz!');
 
-            </React.Fragment>
+        return (
+            <div>{ ReactHtmlParser(result) }</div>
         );
     }
 }
+
