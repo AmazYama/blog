@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist",
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "module": "esnext",
+        "jsx": "react",
+        "lib": ["es2017", "dom", "esnext"],
+        "target": "es6",
+    },
+    "baseUrl": "src",
+    "paths": {
+        "@components/*": ["@next/components/*"],
+      },
+    "exclude": [
+        "node_modules",
+        "dist",
+        "babel.config.js",
+        "webpack.config.js"
+    ]
+}
